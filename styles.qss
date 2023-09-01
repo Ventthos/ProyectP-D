@@ -1,0 +1,48 @@
+QMainWindow{
+    background-color: #d9d9d9;
+}
+QWidget#fondoInfoCancionDesc{
+    background-color: #454545;
+    border-radius: 20%;
+    padding: 50px;
+}
+QLineEdit#barraBuscador{
+    border-radius: 10px;
+     background-color: white;
+     padding: 10px;
+     border: 2px solid gray;
+     margin: 0 80px 20px 80px;
+     font-family: Arial;
+     font-size: 16px;
+}
+QLabel#labelTituloDesc{
+    font-family: Donkin;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+QLabel#cancionImagenDesc{
+    margin-left:20%;
+    margin-bottom: 20%;
+    margin: 0 20% 20% 20%;
+}
+QLabel#tituloDesc{
+    margin-right: 20%;
+    font-family: Georgia;
+    font-size: 20px;
+    color: white;
+}
+QLineEdit#entryDesc{
+    margin-right: 20%;
+    margin-bottom: 10%;
+    font-size: 16px;
+    padding: 6%;
+    border: 2px solid #a6a2a2;
+}
+QPushButton#botonDescarga{
+    margin: 30% 20% 20% 0;
+    padding: 8%;
+    background-color: #cf4848;
+    font-family: Georgia;
+    font-size: 20px;
+    color: white;
+}
